@@ -40,3 +40,22 @@ body{
     border-bottom: 1px #ddd solid;
   }
 }
+
+#authors{
+  img{
+    margin-top: -50px;
+  }
+
+  .fa{
+    font-size: 25px;
+  }
+
+  .card:hover{
+    background: $primary;
+    color: #fff;
+
+    .fa{
+      color: #fff;
+    }
+  }
+}
